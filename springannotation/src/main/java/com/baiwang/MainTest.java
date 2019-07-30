@@ -24,5 +24,6 @@ public class MainTest {
         for (String name : beanNamesForType) {
             System.out.println(name);
         }
+        System.out.println("abcd");
     }
 }
