@@ -1,0 +1,6 @@
+
+Zsquid:S1481"7Remove this unused "annotationMetadata" local variable.(ÄÍñãùÿÿÿÿ8ü‡»Íµ-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Šš“í8”ÂÀÍµ-
+Psquid:S1481"-Remove this unused "resource" local variable.(éˆç•ùÿÿÿÿ8˜Í¾Íµ-
+_squid:S1126"AReplace this if-then-else statement by a single return statement.(˜³¤8ŠøÅÍµ-
