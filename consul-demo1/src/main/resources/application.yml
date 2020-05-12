@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: consul-demo
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      discovery:
+        service-name: consul-producer #服务端
+        hostname: ${spring.cloud.consul.host}
+        healthCheckPath: /actuator/health
+        healthCheckInterval: 15s
+        tags: urlprefix-/${spring.application.name}
+        instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+server:
+  port: 9091

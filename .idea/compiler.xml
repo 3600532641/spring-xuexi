@@ -7,11 +7,37 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="nacos-provide" />
         <module name="springannotation" />
+        <module name="consul-demo1" />
+        <module name="consul-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="springannotation" target="1.5" />
+      <module name="api" target="1.8" />
+      <module name="consul-demo" target="1.8" />
+      <module name="consul-demo1" target="1.8" />
+      <module name="consuner-6001" target="1.8" />
+      <module name="consuner-6001-feign" target="1.8" />
+      <module name="nacos" target="1.8" />
+      <module name="nacos-provide" target="1.8" />
+      <module name="provider-7001" target="1.8" />
+      <module name="provider-7002" target="1.8" />
+      <module name="provider-7003" target="1.8" />
+      <module name="provider-hystrix-7001" target="1.8" />
+      <module name="server-api" target="1.8" />
+      <module name="server-one" target="1.8" />
+      <module name="server-three" target="1.8" />
+      <module name="server-two" target="1.8" />
+      <module name="springannotation" target="8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consul-demo" options="-parameters" />
+      <module name="consul-demo1" options="-parameters" />
+      <module name="nacos" options="-parameters" />
+      <module name="nacos-provide" options="-parameters" />
+    </option>
   </component>
 </project>

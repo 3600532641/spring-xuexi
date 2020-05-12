@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM" />
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/consul-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/consul-demo1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nacos-provide" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../xx/api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../xx/consuner-6001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../xx/consuner-6001-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../xx/provider-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../xx/provider-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../xx/provider-7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../xx/provider-hystrix-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../xx/server-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../xx/server-one" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../xx/server-three" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../xx/server-two" charset="UTF-8" />
+  </component>
 </project>

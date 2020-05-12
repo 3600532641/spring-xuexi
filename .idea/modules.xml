@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/consul-demo/consul-demo.iml" filepath="$PROJECT_DIR$/consul-demo/consul-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consul-demo1/consul-demo1.iml" filepath="$PROJECT_DIR$/consul-demo1/consul-demo1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springannotation/springannotation.iml" filepath="$PROJECT_DIR$/springannotation/springannotation.iml" />
     </modules>
   </component>
